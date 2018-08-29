@@ -1,0 +1,23 @@
+
+
+静态资源访问注意相对路径<img src="../image/2.jpg"/>
+
+如何用Maven创建web项目（具体步骤）
+http://www.cnblogs.com/apache-x/p/5673663.html
+
+C:\Users\zhoumiao\Downloads\ssm\project-lib\commons-dbcp-1.4.jar
+
+<!-- 数据库环境 -->
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:ssm"/>
+        <property name="username" value="ssm"/>
+        <property name="password" value="A123a123"/>
+      </dataSource>
+    </environment>
+  </environments>
+  
+  http://mavensearch.io/		根据包名称取文档和代码

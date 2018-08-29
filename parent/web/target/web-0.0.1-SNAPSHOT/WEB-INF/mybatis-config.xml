@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+	  
+	  
+	<typeAliases><!-- 别名 -->
+	    <typeAlias alias="Role" type="com.chinasoft.model.Role"/> <!-- returnType="role" 可代表后面一长串内容 -->
+	</typeAliases>
+	
+	<!-- 映射文件 -->
+	<mappers>
+	  <!-- <mapper resource="/com/chinasoft/mapper/RoleMapper.xml"/>说明映射文件具体位置 -->
+	  <!-- /dao/src/main/java/com/chinasoft/mapper/RoleMapper.xml -->
+	  
+	  <mapper resource="/com/chinasoft/mapper/RoleMapper.xml"/>
+	</mappers>
+  
+
+</configuration>
